@@ -15,7 +15,7 @@ a {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #992b46;
+  background-color: #fd0442;
 }
 nav {
   max-width: 1200px;
@@ -39,7 +39,7 @@ nav {
 .link a {
   position: relative;
   padding-bottom: 0.75rem;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .link a::after {
   content: "";
@@ -57,7 +57,7 @@ nav {
 .btn {
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: red;
   border-radius: 5px;
   cursor: pointer;
@@ -86,12 +86,12 @@ header {
 }
 header .conteudo {
   margin-bottom: 1rem;
-  color: #000;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
 }
 header .conteudo h1 {
-  color: #000;
+  color: #ffffff;
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -99,11 +99,11 @@ header .conteudo h1 {
 }
 h1 span {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #ffffff;
 }
 p {
   margin-bottom: 2rem;
-  color: #000;
+  color: #ffffff;
 }
 header .img {
   position: relative;
@@ -128,7 +128,7 @@ header .img img {
 /* section*/
 section .header {
   margin-bottom: 1rem;
-  color: #000;
+  color: #ffffff;
   text-align: center;
   font-size: 2.25rem;
   font-weight: 600;
@@ -159,4 +159,7 @@ section .header {
   font-size: 1.75rem;
   color: #fff;
   border-radius: 5px;
+}
+h4 {
+  color: #fff;
 }
